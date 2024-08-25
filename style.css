@@ -1,0 +1,92 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #474747;
+}
+
+.flower {
+    width: 300px;
+    height: 300px;
+    position: relative;
+  }
+  .petal1circle, .petal2circle, .petal3circle, .petal4circle, .petal5circle, .petal1top, .petal2top, .petal3top, .petal4top, .petal5top {
+    border: 1px solid #999;
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    width: 30px;
+    height: 150px;
+    transform-origin: bottom center;
+    transition: rotate 1s, top 1s, left 1s;
+  }
+  .icon {
+    width: 100%;
+    text-align: center;
+  }
+
+  .petal1circle {
+    rotate: 0deg;
+    left: 50%;
+  }
+  .petal1top {
+    left: 40px;
+    rotate: 0deg;
+  }
+  .petal1circle .icon {
+    rotate: 0deg;
+  }
+
+  .petal2circle {
+    rotate: 72deg;
+    left: 50%;
+  }
+  .petal2top {
+    left: 80px;
+    rotate: 0deg;
+  }
+  .petal2circle .icon {
+    rotate: -72deg;
+  }
+
+  .petal3circle {
+    rotate: 144deg;
+    left: 50%;
+  }
+  .petal3top {
+    left: 120px;
+    rotate: 0deg;
+  }
+  .petal3circle .icon {
+    rotate: -144deg;
+  }
+
+  .petal4circle {
+    rotate: 216deg;
+    left: 50%;
+  }
+  .petal4top {
+    left: 160px;
+    rotate: 0deg;
+  }
+  .petal4circle .icon {
+    rotate: -216deg;
+  }
+
+  .petal5circle {
+    rotate: 288deg;
+    left: 50%;
+  }
+  .petal5top {
+    left: 200px;
+    rotate: 0deg;
+  }
+  .petal5circle .icon {
+    rotate: -288deg;
+  }
