@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div id="content" class="py-10 px-6 flex flex-col gap-2">
+    <div class="row bg-gray-300">
+      <div class="taskWrapper flex h-24 relative">
+        <div id="task1" class="task1 bg-orange-500 h-full w-[100px] absolute left-[100px] z-20"></div>
+        <div id="task2" class="task2 bg-green-500 h-full w-[100px] absolute left-[250px] z-20"></div>
+      </div>
+    </div>
+    <div class="row bg-gray-300 relative">
+      <div class="taskWrapper h-24">
+        <div id="task3" class="task3 bg-green-500 h-full w-[300px] absolute left-[150px] z-20"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="dependencyContainer"></div>
+
+  <script src="src/dependencyArrows.js"></script>
+</body>
+
+</html>
