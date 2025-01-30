@@ -6,7 +6,6 @@ html {
   font-size: 16px;
   color: #2f2f2f;
   background-color: #f9f9f9;
-  height: 100%;
 }
 textarea {
     border-radius: .5rem;
@@ -15,8 +14,21 @@ textarea {
 }
 body {
   margin: 0;
-  height: 100%;
+  background-color: #f9f9f9;
 }
 .slider {
     width: 100%;
+}
+
+.donation-div {
+  margin: 0 auto;
+}
+@media (min-width: 1580px) {
+  
+  .donation-div {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 1em;
+  }
 }
